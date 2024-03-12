@@ -13,21 +13,6 @@ body {
     text-align: center;
     width: 400px;
   }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
 
   .contentExpandedStyle {
     overflow: hidden;
@@ -69,8 +54,13 @@ body {
 
   .filter {
     margin: 20px;
+    
   }
 
+  .filterTitle{
+    font-size: 14pt;
+    margin: 5px;
+  }
 
   .list-avatar {
     width: 100px;
@@ -79,4 +69,6 @@ body {
     border: 0.1875em solid #000000;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
